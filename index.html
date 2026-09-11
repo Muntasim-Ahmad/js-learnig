@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is demo file</h1>
+
+    <h2 id="name">muntasim</h2>
+
+    <button id="name-changer">change name</button>
+
+    <h2>abcd</h2>
+
+    <script>
+        const element = document.getElementById("name");
+        const button = document.getElementById("name-changer");
+
+        function changeName() {
+            element.innerHTML = element.innerHTML.replace("muntasim", "imtiyaz");
+        }
+
+        // changeName()
+
+        // button.addEventListener("click", changeName);
+
+        button.addEventListener("click", changeName);
+
+    </script>
+
+</body>
+
+</html>
